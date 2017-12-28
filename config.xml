@@ -69,19 +69,6 @@ function onDeviceReady() {
 
 document.addEventListener("deviceready", onDeviceReady, false);
 
-function showInterstitialAd() {
-    if (isPendingInterstitial) {
-        admob.showInterstitialAd(function () {
-                isPendingInterstitial = false;
-                isAutoshowInterstitial = false;
-                prepareInterstitialAd();
-        });
-    } else {
-        // The interstitial is not prepared, so in this case, we want to show the interstitial as soon as possible
-        isAutoshowInterstitial = true;
-        admob.requestInterstitialAd({
-            autoShowInterstitial: isAutoshowInterstitial
-        });
     }
 }
 </widget>
