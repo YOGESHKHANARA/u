@@ -28,5 +28,5 @@
     <gap:plugin name="phonegap-admob" source="npm"/>
     admob.createBannerView({publisherId: "ca-app-pub-2917648631117576/9673250246"});
     
-
+}
 </widget>
