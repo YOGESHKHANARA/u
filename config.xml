@@ -23,8 +23,8 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <plugin name="admob" spec="^5.5.0" />
     
-    <plugin name="com.admob.plugin" spec="^5.5.0" />
     <gap:plugin name="phonegap-admob" source="npm"/>
     admob.createBannerView({publisherId: "ca-app-pub-2917648631117576/9673250246"});
 </widget>
