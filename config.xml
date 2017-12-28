@@ -69,7 +69,7 @@ function onDeviceReady() {
 
 document.addEventListener("deviceready", onDeviceReady, false);
 
-    }
+    
 }
 </widget>
 
